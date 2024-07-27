@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.formContainer{
+    display: flex;
+    justify-content: center;
+    max-width: 20vw;
+    margin: auto;
+}
+
+.formContainer h3{
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.stdForm {
+    width: 380px;
+    padding: 20px;
+}
+
+.stdForm p input{
+    width: 100%;
+    height: 6vh;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-left: 1em;
+}
+
+.stdForm .createBtn{
+    padding: 7px 12px;
+}
