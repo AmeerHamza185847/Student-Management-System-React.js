@@ -17,7 +17,7 @@ function App() {
         ...doc.data()
       }
     ))
-    console.log("stdList:", stdList);
+    // console.log("stdList:", stdList);
     setStudents(stdList);
   }
 
